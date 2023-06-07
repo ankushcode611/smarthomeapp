@@ -81,9 +81,9 @@ class _HomePageState extends State<HomePage> {
                     style: TextStyle(fontSize: 20, color: Colors.grey[700]),
                   ),
                   Text(
-                    "Sonal",
+                    "ANKUSH THAKUR",
                     style: GoogleFonts.bebasNeue(
-                      fontSize: 72,
+                      fontSize: 62,
                     ),
                   ),
                 ],
@@ -120,7 +120,7 @@ class _HomePageState extends State<HomePage> {
             Expanded(
                 child: GridView.builder(
                     itemCount: mySmartDevices.length,
-                    physics: const NeverScrollableScrollPhysics(),
+                    physics: NeverScrollableScrollPhysics(),
                     padding: EdgeInsets.all(25),
                     gridDelegate:
                         const SliverGridDelegateWithFixedCrossAxisCount(
