@@ -1,6 +1,9 @@
 # smarthomeapp
 
-A new Flutter project.
+A smiple smart home appliance control application
+
+It uses cupertino buttons to show on and off status of the switches and
+can switch colors in UI depending on the state of the switch
 
 ## Getting Started
 
